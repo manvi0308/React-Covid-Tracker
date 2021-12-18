@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.searchBar {
+  padding: 10px;
+  border: 1px solid red;
+  margin: 10px;
+}
+
+.searchBar FormControl{
+  display: flex;
+}
+
+
+.searchBar input {
+  width: 25%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+  margin: 4px;
+}
